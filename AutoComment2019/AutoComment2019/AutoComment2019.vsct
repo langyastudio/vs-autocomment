@@ -25,7 +25,7 @@
 
   <!--The Commands section is where we the commands, menus and menu groups are defined.
       This section uses a Guid to identify the package that provides the command defined inside it. -->
-  <Commands package="guidAutoComment2015Pkg">
+  <Commands package="guidAutoComment2019Pkg">
     <!-- Inside this section we have different sub-sections: one for the menus, another  
     for the menu groups, one for the buttons (the actual commands), one for the combos 
     and the last one for the bitmaps used. Each element is identified by a command id that  
@@ -37,7 +37,7 @@
     <!--注释菜单-->
     <Menus>
 
-      <Menu guid="guidAutoComment2015CmdSet" id="AutoCommentMenu" priority="0x100" type="Menu">
+      <Menu guid="guidAutoComment2019CmdSet" id="AutoCommentMenu" priority="0x100" type="Menu">
         <!--
         File/Edit/View        IDG_VS_MM_FILEEDITVIEW
         Refactoring           IDG_VS_MM_REFACTORING:
@@ -62,8 +62,8 @@
          must be a menu. -->
     <Groups>
 
-      <Group guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" priority="0x0600">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentMenu"/>
+      <Group guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" priority="0x0600">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentMenu"/>
       </Group>
 
     </Groups>
@@ -81,64 +81,64 @@
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
 
-      <Button guid="guidAutoComment2015CmdSet" id="ChangeDetail" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="ChangeDetail" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>ChangeDetail</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="CppChangeHistory" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="CppChangeHistory" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>CppChangeHistory</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DocClass" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DocClass" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxClass</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DocFunction" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DocFunction" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxFunction</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DocMember" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DocMember" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxMember</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DocGenList" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DocGenList" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxGenList</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DocGenTable" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DocGenTable" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxGenTable</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DoNetChangeHistory" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DoNetChangeHistory" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxNetChangeHistory</ButtonText>
         </Strings>
       </Button>
 
-      <Button guid="guidAutoComment2015CmdSet" id="DoNetFunction" priority="0x100" type="Button">
-        <Parent guid="guidAutoComment2015CmdSet" id="AutoCommentGroup" />
+      <Button guid="guidAutoComment2019CmdSet" id="DoNetFunction" priority="0x100" type="Button">
+        <Parent guid="guidAutoComment2019CmdSet" id="AutoCommentGroup" />
         <Strings>
           <ButtonText>DoxNetFunction</ButtonText>
         </Strings>
@@ -166,10 +166,10 @@
 
   <Symbols>
     <!-- This is the package guid. -->
-    <GuidSymbol name="guidAutoComment2015Pkg" value="{eca609f2-905d-4007-8721-c7d02fd49ff1}" />
+    <GuidSymbol name="guidAutoComment2019Pkg" value="{eca609f2-905d-4007-8721-c7d02fd49ff1}" />
     
     <!-- This is the guid used to group the menu commands together -->
-    <GuidSymbol name="guidAutoComment2015CmdSet" value="{6c3ca1a7-2435-4e52-aa5b-79bbfd2bfc72}">
+    <GuidSymbol name="guidAutoComment2019CmdSet" value="{6c3ca1a7-2435-4e52-aa5b-79bbfd2bfc72}">
 
       <IDSymbol name="AutoCommentMenu"    value="0x1020" />
       <IDSymbol name="AutoCommentGroup"   value="0x1021" />

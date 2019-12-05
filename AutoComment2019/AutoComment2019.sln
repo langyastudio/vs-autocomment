@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoComment2015", "AutoComment2015\AutoComment2015.csproj", "{9E445CAB-1E4A-485F-B00F-8583A71AC0B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoComment2019", "AutoComment2019\AutoComment2019.csproj", "{9E445CAB-1E4A-485F-B00F-8583A71AC0B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A159C25-D0D8-4A63-8715-B09F8F37D37D}
 	EndGlobalSection
 EndGlobal

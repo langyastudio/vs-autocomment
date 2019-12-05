@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using EnvDTE;
 using Microsoft.VisualStudio.Shell;
 
-namespace HKFY.AutoComment2015
+namespace HKFY.AutoComment2019
 {
      public struct ITEMDATA
      {

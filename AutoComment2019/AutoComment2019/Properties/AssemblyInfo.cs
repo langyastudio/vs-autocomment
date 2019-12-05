@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoComment2015")]
+[assembly: AssemblyTitle("AutoComment2019")]
 [assembly: AssemblyDescription("为代码添加注释,支持c++/C#.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("郎涯工作室")]
-[assembly: AssemblyProduct("AutoComment2015")]
+[assembly: AssemblyProduct("AutoComment2019")]
 [assembly: AssemblyCopyright("傲十郎")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]   

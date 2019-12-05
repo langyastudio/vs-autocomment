@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HKFY.AutoComment2015
+namespace HKFY.AutoComment2019
 {
     public partial class InputBox : Form
     {

@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
 
-namespace HKFY.AutoComment2015
+namespace HKFY.AutoComment2019
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -29,8 +29,8 @@ namespace HKFY.AutoComment2015
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
     // This attribute is needed to let the shell know that this package exposes some menus.
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [Guid(GuidList.guidAutoComment2015PkgString)]
-    public sealed class AutoComment2015Package : Package
+    [Guid(GuidList.guidAutoComment2019PkgString)]
+    public sealed class AutoComment2019Package : Package
     {
         CommentFun _commentFun = null;
 
@@ -41,7 +41,7 @@ namespace HKFY.AutoComment2015
         /// not sited yet inside Visual Studio environment. The place to do all the other 
         /// initialization is the Initialize method.
         /// </summary>
-        public AutoComment2015Package()
+        public AutoComment2019Package()
         {
             Debug.WriteLine(string.Format(CultureInfo.CurrentCulture, "Entering constructor for: {0}", this.ToString()));
 
@@ -66,39 +66,39 @@ namespace HKFY.AutoComment2015
             if ( null != mcs )
             {
                 // Create the command for the menu item.
-                CommandID menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.ChangeDetail);
+                CommandID menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.ChangeDetail);
                 MenuCommand menuItem = new MenuCommand(ChangeDetailCallBack, menuCommandID);
                 mcs.AddCommand( menuItem );
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.CppChangeHistory);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.CppChangeHistory);
                 menuItem = new MenuCommand(CppChangeHistoryCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DocClass);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DocClass);
                 menuItem = new MenuCommand(DocClassCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DocFunction);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DocFunction);
                 menuItem = new MenuCommand(DocFunctionCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DocMember);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DocMember);
                 menuItem = new MenuCommand(DocMemberCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DocGenList);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DocGenList);
                 menuItem = new MenuCommand(DocGenListCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DocGenTable);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DocGenTable);
                 menuItem = new MenuCommand(DocGenTableCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DoNetChangeHistory);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DoNetChangeHistory);
                 menuItem = new MenuCommand(DoNetChangeHistoryCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(GuidList.guidAutoComment2015CmdSet, (int)PkgCmdIDList.DoNetFunction);
+                menuCommandID = new CommandID(GuidList.guidAutoComment2019CmdSet, (int)PkgCmdIDList.DoNetFunction);
                 menuItem = new MenuCommand(DoNetFunctionCallBack, menuCommandID);
                 mcs.AddCommand(menuItem);
             }

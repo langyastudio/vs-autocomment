@@ -2,7 +2,7 @@
 // MUST match PkgCmdID.h
 using System;
 
-namespace HKFY.AutoComment2015
+namespace HKFY.AutoComment2019
 {
     static class PkgCmdIDList
     {

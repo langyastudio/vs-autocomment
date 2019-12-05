@@ -1,4 +1,4 @@
-﻿namespace HKFY.AutoComment2015
+﻿namespace HKFY.AutoComment2019
 {
     partial class InputBox
     {
